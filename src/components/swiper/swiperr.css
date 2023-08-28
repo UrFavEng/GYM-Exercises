@@ -1,0 +1,20 @@
+.md,
+.sm {
+  display: none;
+}
+@media (max-width: 1000px) {
+  .lg {
+    display: none;
+  }
+  .md {
+    display: block;
+  }
+}
+@media (max-width: 650px) {
+  .md {
+    display: none;
+  }
+  .sm {
+    display: block;
+  }
+}

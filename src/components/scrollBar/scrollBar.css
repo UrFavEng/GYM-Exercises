@@ -1,0 +1,58 @@
+.ScrollBar,
+.ScrollBar-md,
+.ScrollBar-sm {
+  margin: 40px 0px;
+}
+.ScrollBar p,
+.ScrollBar-md p,
+.ScrollBar-sm p {
+  text-align: center;
+}
+.ScrollBar img,
+.ScrollBar-md img,
+.ScrollBar-sm img {
+  width: 60px;
+  margin: 30px auto;
+}
+.slide-scrollBar {
+  margin-bottom: 25px;
+  background-color: #f7f7f7c7;
+  cursor: pointer;
+}
+.slide-scrollBar p {
+  margin-bottom: 25px;
+  color: #777;
+  font-size: 23px;
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 1px;
+  word-spacing: -2px;
+}
+.ScrollBar-md {
+  display: none;
+}
+.ScrollBar-sm {
+  display: none;
+}
+.all-exercises {
+  cursor: pointer;
+}
+@media (max-width: 910px) {
+  .ScrollBar {
+    display: none;
+  }
+  .ScrollBar-md {
+    display: block;
+  }
+}
+@media (max-width: 550px) {
+  .ScrollBar {
+    display: none;
+  }
+  .ScrollBar-md {
+    display: none;
+  }
+  .ScrollBar-sm {
+    display: block;
+  }
+}
