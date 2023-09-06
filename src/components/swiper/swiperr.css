@@ -1,0 +1,27 @@
+.md,
+.sm {
+  display: none;
+}
+.container-lg-md-sm {
+  padding: 0 25px;
+  margin-bottom: 30px;
+}
+@media (max-width: 1000px) {
+  .lg {
+    display: none;
+  }
+  .md {
+    display: block;
+  }
+}
+@media (max-width: 650px) {
+  .md {
+    display: none;
+  }
+  .sm {
+    display: block;
+  }
+  .container-lg-md-sm {
+    padding: 0 10px;
+  }
+}

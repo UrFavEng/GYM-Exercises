@@ -1,0 +1,75 @@
+.SearchBar {
+  margin: 40px 0;
+  padding: 40px 0;
+  text-align: center;
+}
+.SearchBar h1 {
+  font-size: 65px;
+  font-weight: 600;
+  line-height: 65px;
+  letter-spacing: -3px;
+  margin-bottom: 40px;
+}
+.SearchBar form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.SearchBar form input:first-child {
+  outline: none;
+  border: none;
+  height: 40px;
+  width: 40%;
+  padding-left: 15px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.SearchBar form input:last-child {
+  font-size: 16px;
+  font-weight: 500;
+  outline: none;
+  border: none;
+  background-color: #ff2625;
+  height: 40px;
+  width: 8%;
+  padding: 10px 8px;
+  cursor: pointer;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+@media (max-width: 910px) {
+  .SearchBar h1 {
+    font-size: 55px;
+  }
+  .SearchBar form input:first-child {
+    width: 60%;
+  }
+  .SearchBar form input:last-child {
+    width: 10%;
+  }
+}
+@media (max-width: 550px) {
+  .SearchBar h1 {
+    font-size: 40px;
+    padding: 0 8px;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+  }
+  .SearchBar form input:first-child {
+    width: 70%;
+  }
+  .SearchBar form input:last-child {
+    width: 18%;
+  }
+}
+@media (max-width: 450px) {
+  .SearchBar h1 {
+    font-size: 30px;
+    padding: 0 8px;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+  }
+}
