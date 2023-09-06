@@ -12,14 +12,16 @@ function App() {
   console.log(cat);
   return (
     <>
-      <Navbar setCat={setCat} />
-      <Routes>
-        <Route path="/" element={<Home setCat={setCat} cat={cat} />}>
-          <Route path="/cat/:cat" element={<CatExercises />} />
-        </Route>
-        <Route path="/exercise/:id" element={<ExercisesByID />} />
-        <Route path="/exercise/search/:name" element={<SearchExercises />} />
-      </Routes>
+      <div className="container-app">
+        <Navbar setCat={setCat} />
+        <Routes>
+          <Route path="/" element={<Home setCat={setCat} cat={cat} />}>
+            <Route path="/cat/:cat" element={<CatExercises />} />
+          </Route>
+          <Route path="/exercise/:id" element={<ExercisesByID />} />
+          <Route path="/exercise/search/:name" element={<SearchExercises />} />
+        </Routes>
+      </div>
     </>
   );
 }

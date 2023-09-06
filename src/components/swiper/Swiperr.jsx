@@ -13,7 +13,7 @@ const Swiperr = ({ ListByTarget }) => {
   const rout = useNavigate();
 
   return (
-    <>
+    <div className="container-lg-md-sm">
       <Swiper
         className="lg"
         modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -68,7 +68,7 @@ const Swiperr = ({ ListByTarget }) => {
         ))}
         ...
       </Swiper>
-    </>
+    </div>
   );
 };
 

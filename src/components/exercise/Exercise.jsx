@@ -9,7 +9,7 @@ const Exercise = ({ limitData }) => {
       {limitData.map((item) => (
         <div
           key={item.id}
-          className="container-Exercise bg-white m-4"
+          className="container-Exercise bg-white m-2"
           onClick={() => rout(`/exercise/${item.id}`)}
         >
           <img src={item.gifUrl} alt="" />

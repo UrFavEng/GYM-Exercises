@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { useListByNameQuery } from "../../store/apiSlice";
 import Loading from "../../components/loading/Loading";
 import Exercise from "../../components/exercise/Exercise";
-
+import "./searchExercises.css";
 const SearchExercises = () => {
   let { name } = useParams();
 
@@ -17,7 +17,7 @@ const SearchExercises = () => {
   return (
     <>
       <SearchBar />
-      <div className="container-Exercises" id="exercises">
+      <div className="container-Exercises " id="exercises">
         <Exercise limitData={limitData} />
       </div>
     </>

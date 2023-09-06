@@ -28,7 +28,7 @@ export default function ScrollBar({ setCat }) {
   ];
   console.log(bodyParts);
   return (
-    <>
+    <div className="ScrollBar-container">
       <Swiper
         className="ScrollBar"
         modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -140,6 +140,6 @@ export default function ScrollBar({ setCat }) {
           </SwiperSlide>
         ))}
       </Swiper>
-    </>
+    </div>
   );
 }

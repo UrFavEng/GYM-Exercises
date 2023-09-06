@@ -2,6 +2,10 @@
 .sm {
   display: none;
 }
+.container-lg-md-sm {
+  padding: 0 25px;
+  margin-bottom: 30px;
+}
 @media (max-width: 1000px) {
   .lg {
     display: none;
@@ -16,5 +20,8 @@
   }
   .sm {
     display: block;
+  }
+  .container-lg-md-sm {
+    padding: 0 10px;
   }
 }

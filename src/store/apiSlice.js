@@ -8,7 +8,7 @@ export const exercisesApi = createApi({
       headers.set("X-BingApis-SDK", "application/vnd.api+json");
       headers.set(
         "X-RapidAPI-Key",
-        "26edb38ce3msh506f4b75823babap14934ajsn72c5faac6090"
+        "6294da7620msh8d4534de21e1c27p15089djsn34e22c5f3f75"
       );
       headers.set("X-RapidAPI-Host", "exercisedb.p.rapidapi.com");
       return headers;

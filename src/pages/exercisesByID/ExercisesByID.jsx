@@ -86,7 +86,7 @@ const ExercisesByID = () => {
       </div>
       {ListByTargett.length > 0 ? (
         <>
-          <h1 className="target-muscle">
+          <h1 className="target-muscle px-3">
             Exercises That Target The Same Muscle Group
           </h1>
           <Swiperr ListByTarget={ListByTargett} />
@@ -97,7 +97,7 @@ const ExercisesByID = () => {
 
       {ListByEquipment.length > 0 ? (
         <>
-          <h1 className="target-muscle">
+          <h1 className="target-muscle px-3">
             Exercises That Use The Same Equipment
           </h1>
           <Swiperr ListByTarget={ListByEquipment} />
