@@ -9,6 +9,8 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import { Link, useNavigate } from "react-router-dom";
+import demo from "../../assets/images/demo.gif";
+
 const Swiperr = ({ ListByTarget }) => {
   const rout = useNavigate();
 
@@ -26,7 +28,7 @@ const Swiperr = ({ ListByTarget }) => {
         {ListByTarget.map((item) => (
           <SwiperSlide key={item.id}>
             <Link to={`/exercise/${item.id}`}>
-              <img src={item.gifUrl} alt="" />
+              <img src={demo} alt="" />
             </Link>
           </SwiperSlide>
         ))}
@@ -44,7 +46,7 @@ const Swiperr = ({ ListByTarget }) => {
         {ListByTarget.map((item) => (
           <SwiperSlide key={item.id}>
             <Link to={`/exercise/${item.id}`}>
-              <img src={item.gifUrl} alt="" />
+              <img src={demo} alt="" />
             </Link>
           </SwiperSlide>
         ))}
@@ -62,7 +64,7 @@ const Swiperr = ({ ListByTarget }) => {
         {ListByTarget.map((item) => (
           <SwiperSlide key={item.id}>
             <Link to={`/exercise/${item.id}`}>
-              <img src={item.gifUrl} alt="" />
+              <img src={demo} alt="" />
             </Link>
           </SwiperSlide>
         ))}
