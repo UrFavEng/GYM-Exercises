@@ -28,7 +28,7 @@ const Swiperr = ({ ListByTarget }) => {
         {ListByTarget.map((item) => (
           <SwiperSlide key={item.id}>
             <Link to={`/exercise/${item.id}`}>
-              <img src={demo} alt="" />
+              <img src={item.gifUrl} alt="" />
             </Link>
           </SwiperSlide>
         ))}
@@ -46,7 +46,7 @@ const Swiperr = ({ ListByTarget }) => {
         {ListByTarget.map((item) => (
           <SwiperSlide key={item.id}>
             <Link to={`/exercise/${item.id}`}>
-              <img src={demo} alt="" />
+              <img src={item.gifUrl} alt="" />
             </Link>
           </SwiperSlide>
         ))}
@@ -64,7 +64,7 @@ const Swiperr = ({ ListByTarget }) => {
         {ListByTarget.map((item) => (
           <SwiperSlide key={item.id}>
             <Link to={`/exercise/${item.id}`}>
-              <img src={demo} alt="" />
+              <img src={item.gifUrl} alt="" />
             </Link>
           </SwiperSlide>
         ))}

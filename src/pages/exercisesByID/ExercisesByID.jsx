@@ -53,7 +53,7 @@ const ExercisesByID = () => {
       <SearchBar />
       <div className="ExercisesByID-details">
         <div className="image">
-          <img src={demo} alt="image" />
+          <img src={dtails.gifUrl} alt="image" />
         </div>
         <div className="ExercisesByID-details-text">
           <h1>{dtails.name}</h1>
